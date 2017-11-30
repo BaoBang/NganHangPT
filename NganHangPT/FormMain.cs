@@ -135,6 +135,7 @@ namespace NganHangPT
 
                 ribbonPageGroupDangNhap.Visible = true;
                 ribbonPageGroupDangXuat.Visible = false;
+                ribbonBarTaoLogin.Visible = false;
                 ribbonPageDanhMuc.Visible = false;
                 ribbonPageBaoCao.Visible = false;
             }
@@ -201,6 +202,11 @@ namespace NganHangPT
         private void btnGiaoDichChuyenTien_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             addtab("Giao dịch chuyển tiền", new UCGiaoDichChuyenTien());
+        }
+
+        private void btnTaoLogin_Click(object sender, EventArgs e)
+        {
+            addtab("Tạo Login", new UCTaoLogin());
         }
     }
 }

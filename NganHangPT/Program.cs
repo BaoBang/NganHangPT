@@ -31,6 +31,7 @@ namespace NganHangPT
         public static int mChinhanh = 0;
         public static BindingSource bds_dspm = new BindingSource();  // giữ bdsPM khi đăng nhập
         public static FormMain frmChinh;
+        public static SqlCommand sqlcmd;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
